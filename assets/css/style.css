@@ -1426,7 +1426,6 @@ section {
 }
 
 #footer .footer-top .footer-info h3 {
-  font-size: 28px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -1540,6 +1539,17 @@ section {
   color: #151515;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
+}
+
+.fundo {
+  background-color: gray;
+  color: black;
+  width: 30%;
+}
+
+.fundo:hover {
+  background-color: rgb(155, 144, 144);
+  color: white;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
