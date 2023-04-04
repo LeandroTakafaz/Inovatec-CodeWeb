@@ -114,7 +114,7 @@
     color: white;
     border-radius: 50%;
     /*borda da roda icone*/
-    background: rgb(145, 50, 50);
+    background: rgb(255, 255, 255);
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -142,7 +142,7 @@
     width: 100%;
     float: left;
     position: relative;
-    background: #000000;
+    background: #3a06f5;
     height: 40px;
     display: inline-block;
     border-radius: 0px;
@@ -243,7 +243,7 @@
     margin: 20px;
     padding: 20px;
     border-radius: 0px;
-    background: gray;
+    background: white;
 
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
