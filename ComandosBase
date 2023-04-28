@@ -1,0 +1,23 @@
+git init = Esse é o comando usado no começo do projeto, usado para inicializar o git e é criado um repositório lá
+
+git checkout -b teste = ele esta crianco um brench, q é uma ramificação do código, da para alterar/acrescaentar as coisas no codigo mas sem alterar nada no master
+
+git branch = Usado para ver quais brench existem e qual brench vc estar
+
+git merge nomedobranch = ele vai unir o master com o branch escolhido, ai o branch vai fazer parte do sistema
+
+git add index.htm ou . = Ele vai adicionar as alterações ou a página no stading q é a parte de preparação, no caso vai adiocionar na linha master e usando o ., será acrescentado todas as mudanças
+
+git commit - m "Alguma descirção do q foi feito" = Esse comando é meio q para salvar as alterações q foram feitas.
+
+git log = é para ver todos os commits, o id de cada um, as coisas alteradas, descrições, etc...
+
+git checkout iddocommit = Esse faz com que vc volte ou vá para um determinado commit, e caso vc volte o commit e use o git log, n vão aparecer todos, somente aqueles q foram criados até o momento daquele commit, qualquer coisa é só usar o git log --all
+
+git checkout -b nomedobranch = Isso faz com que vc crie uma nova branch
+
+git clone = È usado quando vc vai no github e ja tem um projeot la, vc entra no repositorio atraves do cmd, usando o comando cd e o caminho apra o repositorio e depois da um git clone e o link q tem la no botão code no rep do github e ele vai copiar tudo
+
+git push origin nomedobranch = ele é usado quando é para enviar as coisas para p github, caso tenha outro branch sems er o principal, vc colocar esse comando mais o nome do branch, ai é enviado para o git hub, caso vc esteja mexendo no principal mesmo, use o git push
+
+È legal ir no github e criar um fork, pq vc copia todo aquele rep para o seu diretorio e depois criar um branch e vai fazendo alteração sem mexer no codigo q esta em andamento e depois vc enviar esse rep para o github e no botão de atribuição vc pode fazer uma solicitação para juntar oq vc fez com o sistema q esta em execução
