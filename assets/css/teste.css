@@ -131,7 +131,7 @@
     left: 15px;
     color: rgb(148, 28, 28);
     border-radius: 50%;
-    background: red;
+    background: rgb(126, 5, 5);
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -142,7 +142,7 @@
     width: 100%;
     float: left;
     position: relative;
-    background: #3a06f5;
+    background: #00000067;
     height: 40px;
     display: inline-block;
     border-radius: 0px;
@@ -166,7 +166,7 @@
     height: 4px;
     top: 19px;
     left: 10px;
-    background: white;
+    background: rgb(131, 131, 131);
     /*#F44336;*/
     border-radius: 0px;
     -ms-transform: rotate(45deg);
@@ -179,7 +179,7 @@
 .form-container .invalid .input-status:after {
     width: 20px;
     height: 4px;
-    background: white;
+    background: rgb(255, 255, 255);
     border-radius: 0px;
     top: 19px;
     left: 10px;
@@ -191,7 +191,7 @@
 }
 
 .form-container div .row .valid:hover {
-    background: #A5D6A7;
+    background: #80c980;
 }
 
 .form-container div .row .valid {
@@ -243,7 +243,7 @@
     margin: 20px;
     padding: 20px;
     border-radius: 0px;
-    background: white;
+    background: rgb(0, 0, 0);
 
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -322,14 +322,14 @@
     content: " ";
     width: 100%;
     height: 6px;
-    background: #00BCD4;
+    background: #ffffff;
     position: absolute;
     bottom: 5px;
     right: 0px;
 }
 
 .form-container .tooltip.top .tooltip-inner {
-    border: 0px solid #00BCD4;
+    border: 0px solid #2592b3;
     background: #E0F7FA !important;
     color: #00ACC1;
     font-weight: bold;
@@ -371,7 +371,7 @@
 .form-container input[type=email]:focus,
 .form-container input[type=tel]:focus,
 .form-container select {
-    background: #fff;
+    background: #ffffff;
     color: #777;
     border-left: 0px;
     outline: none;
@@ -382,7 +382,7 @@
 .form-container input[type=email]:hover,
 .form-container input[type=tel]:hover,
 .form-container select {
-    background: #fff;
+    background: #757575;
 }
 
 .form-container input[type=text],
@@ -393,12 +393,12 @@ select {
     width: calc(100% - 50px);
     float: left;
     border-radius: 0px;
-    border: 0px solid #ddd;
+    border: 0px solid #7a7a7a;
     padding: 0px 9px;
     height: 40px;
     line-height: 40px;
-    color: #777;
-    background: #fff;
+    color: #ffffff;
+    background: #777777;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
