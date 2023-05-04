@@ -13,7 +13,7 @@
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    background-image: linear-gradient(to top left, rgb(82, 75, 75), rgb(46, 39, 39));
+    background-image: linear-gradient(to top left, rgb(55, 1, 61), rgb(0, 0, 0));
 }
 
 .clear {
@@ -91,7 +91,7 @@ h3 {
 
 .line-title::after {
     width: 32px;
-    background: #e73700;
+    background: #92756c;
 }
 
 /******* Middle section CSS Start ******/
@@ -114,7 +114,7 @@ h3 {
     display: -webkit-flex;
     align-items: flex-end;
     -webkit-align-items: flex-end;
-    background: #343434 no-repeat center center / cover;
+    background: #fcfcfc no-repeat center center / cover;
     border-radius: 16px;
     overflow: hidden;
     position: relative;

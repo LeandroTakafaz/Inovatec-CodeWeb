@@ -1271,7 +1271,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #9e0404;
+  background: #d80606;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1509,7 +1509,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ffc451;
+  color: #670480;
 }
 
 #footer .footer-top .footer-newsletter form {
