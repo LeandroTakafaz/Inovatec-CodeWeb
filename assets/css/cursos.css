@@ -14,6 +14,8 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     background-image: linear-gradient(to top left, rgb(55, 1, 61), rgb(0, 0, 0));
+    /*background-image: url(../img/colmeiaRoxa.jpg);
+    background-size: cover;*/
 }
 
 .clear {
