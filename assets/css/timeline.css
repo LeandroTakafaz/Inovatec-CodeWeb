@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One");
 
 
-body::before {
-
+body {
     padding: 0px;
     margin: 0px;
 }
@@ -97,11 +96,11 @@ body::before {
     letter-spacing: 3px;
     width: 100%;
     position: absolute;
-    color: rgba(221, 23, 23, 0.5);
+    color: rgb(243, 243, 243);
     font-weight: bolder;
     font-size: 15px;
     font-family: "Pathway Gothic One", sans-serif;
-    border-left: 2px solid rgba(25, 0, 255, 0.5);
+    border-left: 2px solid rgb(255, 255, 255);
     top: 70%;
     margin-top: -5px;
     padding-left: 15px;
@@ -174,7 +173,7 @@ body::before {
     background-size: cover;
 }
 
-.timeline-container:before {
+.timeline-container::before {
     position: absolute;
     left: 0;
     top: 0;
