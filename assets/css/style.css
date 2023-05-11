@@ -154,10 +154,10 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-#  Get Startet Button
+# Login/Registro
 --------------------------------------------------------------*/
 .get-started-btn {
-  color: #fff;
+  color: #fff; 
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
   white-space: nowrap;
@@ -180,10 +180,9 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Barra de Navegação
 */
 .navbar {
   padding: 0;
@@ -239,7 +238,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgb(62, 3, 117);
   transition: 0.3s;
 }
 
@@ -357,7 +356,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #151515;
+  color: #000000;
   background-color: #670480;
 }
 
@@ -375,7 +374,7 @@ h6 {
   opacity: 1;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgb(255, 255, 255);
 }
 
 .navbar-mobile .dropdown ul li {
