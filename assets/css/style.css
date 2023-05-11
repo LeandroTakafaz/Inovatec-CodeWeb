@@ -238,7 +238,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgb(62, 3, 117);
+  box-shadow: 0px 0px 30px rgb(111, 6, 209);
   transition: 0.3s;
 }
 
@@ -656,6 +656,7 @@ section {
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  box-shadow: 0px 0px 30px rgb(62, 3, 117);
 }
 
 .services .icon-box .icon {
@@ -940,7 +941,7 @@ section {
 .counts .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #151515;
+  color: #ffffff;
 }
 
 .counts .content p {
@@ -964,7 +965,7 @@ section {
   line-height: 30px;
   display: block;
   font-weight: 700;
-  color: #151515;
+  color: #ffffff;
   margin-left: 50px;
 }
 
