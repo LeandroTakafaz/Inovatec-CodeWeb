@@ -60,7 +60,7 @@ button {
 
 button:active {
 	transform: scale(0.95);
-	background-color: #3c97bf;
+	background-color: #7729835c;
 }
 
 button:focus {
@@ -94,13 +94,13 @@ input {
 .container {
 	background-color: #d900ff1b;
 	border-radius: 10px;
-  	box-shadow: 0 14px 28px rgba(221, 1, 255, 0.359), 
+  	box-shadow: 0 14px 28px rgba(234, 1, 255, 0.17), 
 			0 10px 10px rgb(0, 0, 0);
 	position: relative;
 	overflow: hidden;
-	width: 960px; 
+	width: 900px; 
 	max-width: 100%;
-	min-height: 400px;
+	min-height: 550px;
 	border: 1px solid #24001c;
 }
 
@@ -251,6 +251,6 @@ footer i {
 }
 
 footer a {
-    color: #3c97bf;
+    color: #f507c1bc;
     text-decoration: none;
 }
