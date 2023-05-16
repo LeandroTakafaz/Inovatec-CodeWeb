@@ -13,6 +13,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	height: 100vh;
 	margin: -20px 0 50px;
+	
 }
 
 h1 {
@@ -45,7 +46,7 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #9b0da8;
+	border: 1px solid #7f1689;
 	background-color: #9b0da8;
 	color: #FFFFFF;
 	font-size: 12px;
@@ -56,8 +57,10 @@ button {
 	transition: transform 80ms ease-in;
 }
 
+
 button:active {
 	transform: scale(0.95);
+	background-color: #3c97bf;
 }
 
 button:focus {
