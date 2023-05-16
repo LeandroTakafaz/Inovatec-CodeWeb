@@ -84,7 +84,7 @@ form {
 }
 
 input {
-	background-color: #eee;
+	background-color: #f8f0f9;
 	border: none;
 	padding: 12px 15px;
 	margin: 8px 0;
@@ -92,15 +92,16 @@ input {
 }
 
 .container {
-	background-color: #fff;
+	background-color: #d900ff1b;
 	border-radius: 10px;
-  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-			0 10px 10px rgba(0,0,0,0.22);
+  	box-shadow: 0 14px 28px rgba(221, 1, 255, 0.359), 
+			0 10px 10px rgb(0, 0, 0);
 	position: relative;
 	overflow: hidden;
-	width: 768px;
+	width: 960px; 
 	max-width: 100%;
-	min-height: 480px;
+	min-height: 400px;
+	border: 1px solid #24001c;
 }
 
 .form-container {
@@ -125,6 +126,7 @@ input {
 	width: 50%;
 	opacity: 0;
 	z-index: 1;
+	
 }
 
 .container.right-panel-active .sign-up-container {
@@ -162,7 +164,7 @@ input {
 }
 
 .overlay {
-	background: #FF416C;
+	background: #060606;
 	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
 	background: linear-gradient(+160deg, #9b0da8, #3a2127de);
 	background-repeat: no-repeat;
@@ -218,12 +220,12 @@ input {
 }
 
 .social-container a {
-	border: 1px solid #DDDDDD;
+	border: 1px solid #78225d;
 	border-radius: 50%;
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 5px;
+	margin: 0 7px;
 	height: 40px;
 	width: 40px;
 }
