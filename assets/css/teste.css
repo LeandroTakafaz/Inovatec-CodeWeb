@@ -158,7 +158,7 @@
 }
 
 .form-container div .row .invalid {
-    background: #E57373;
+    background: #15a006;
 }
 
 .form-container .invalid .input-status:before {
@@ -329,7 +329,7 @@
 }
 
 .form-container .tooltip.top .tooltip-inner {
-    border: 0px solid #2592b3;
+    border: 0px solid #ff00ff;
     background: #E0F7FA !important;
     color: #bfc4c5;
     font-weight: bold;
