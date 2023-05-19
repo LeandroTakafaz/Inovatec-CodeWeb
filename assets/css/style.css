@@ -157,7 +157,7 @@ h6 {
 # Login/Registro
 --------------------------------------------------------------*/
 .get-started-btn {
-  color: #fff; 
+  color: #fff;
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
   white-space: nowrap;
@@ -406,7 +406,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/nova.jpg") top center;
+  background: url("../img/inicial.png") top center;
   background-size: cover;
   position: relative;
 }
@@ -1023,7 +1023,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/alexteste.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
