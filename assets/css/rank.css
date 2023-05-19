@@ -15,7 +15,7 @@ body {
 }
 
 main {
-  width: 40rem;
+  width: 64rem;
   height: 43rem;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 5px 15px 8px #e4e7fb;
@@ -123,9 +123,34 @@ td {
   text-align: left;
 }
 
+.Botao__preview{
+  width: 5rem;
+  height: 2rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #3498DB;
+  border: 0;
+  border-bottom: 0.3rem solid #1F618D;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
 .name {
   text-align: left;
   font-size: 1.2rem;
+}
+
+.email{
+  text-align: left;
+  font-size: 1.2rem;
+  word-wrap: break-word;
+}
+
+.container_email{
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .points {
@@ -163,7 +188,7 @@ td {
 }
 
 .ribbon {
-  width: 42rem;
+  width: 66rem;
   height: 5.5rem;
   top: -0.5rem;
   background-color: #5c5be5;
