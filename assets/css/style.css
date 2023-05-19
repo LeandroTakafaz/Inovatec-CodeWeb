@@ -658,7 +658,6 @@ section {
   background: #fff;
   box-shadow: 0px 0px 30px rgb(62, 3, 117);
 }
-
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
@@ -710,7 +709,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/favorita3.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fundinho1.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1023,7 +1022,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/bg-universo.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1054,8 +1053,8 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
-  border-radius: 50%;
+  max-width: 130px;
+  border-radius: 70px;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }
@@ -1111,7 +1110,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #670480;
+  background-color: #c70cf5;
   opacity: 1;
 }
 
@@ -1224,20 +1223,33 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
+  height: 64px;
   background: #ffffff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  
+ 
+
 }
 
 .contact .info i {
   font-size: 20px;
-  background: #670480;
+  background: #67077e;
   color: #ffffff;
   float: left;
-  width: 44px;
-  height: 44px;
+  width: 46px;
+  height: 64px;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
-  border-radius: 4px;
+  border-top-left-radius: 10px ;
+  border-bottom-left-radius: 10px;
+  border-left-color: #fdfdfc;
+  border-style: solid ;
+  
+ 
   transition: all 0.3s ease-in-out;
 }
 
@@ -1246,14 +1258,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #151515;
+  color: #000000;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
-  color: #484848;
+  font-size: 20px;
+  color: #000000;
 }
 
 .contact .info .email,
@@ -1264,6 +1276,7 @@ section {
 .contact .php-email-form {
   width: 100%;
   background: #fff;
+  
 }
 
 .contact .php-email-form .form-group {
@@ -1273,7 +1286,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #d80606;
+  background: #565252;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1411,15 +1424,15 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: black;
+  background: rgb(12, 0, 14);
   padding: 0 0 30px 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #footer .footer-top {
-  background: #151515;
-  border-bottom: 1px solid #222222;
+  background: #151515d7;
+  border-bottom: 1px solid #560c62;
   padding: 60px 0 30px 0;
 }
 
@@ -1436,11 +1449,13 @@ section {
 }
 
 #footer .footer-top .footer-info h3 span {
-  color: #670480;
+  color: #75188d;
 }
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
+
+  padding-top: 20px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
@@ -1450,7 +1465,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #202020;
+  background: #610264;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1460,6 +1475,7 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  
 }
 
 #footer .footer-top .social-links a:hover {
@@ -1469,11 +1485,12 @@ section {
 }
 
 #footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 26px;
+  text-align: left;
   font-weight: 600;
-  color: #fff;
+  color: #ffffff;
   position: relative;
-  padding-bottom: 12px;
+  padding-bottom: 15px;
 }
 
 #footer .footer-top .footer-links {
@@ -1482,7 +1499,7 @@ section {
 
 #footer .footer-top .footer-links ul {
   list-style: none;
-  padding: 0;
+  padding-top: 20px;
   margin: 0;
 }
 
@@ -1515,7 +1532,6 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
   background: #fff;
   padding: 6px 10px;
   position: relative;
@@ -1538,7 +1554,7 @@ section {
   font-size: 16px;
   padding: 0 20px;
   background: #670480;
-  color: #151515;
+  color: #ffffff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
