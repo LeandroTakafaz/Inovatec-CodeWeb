@@ -1,0 +1,61 @@
+.scroll--simple::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.scroll--simple::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.scroll--simple::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.scroll--simple::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.scroll--simple::-webkit-scrollbar-thumb:active {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.nicescroll-rails-vr {
+    border: 1px solid #9c27b0;
+}
+
+.nicescroll-rails-vr .nicescroll-cursors {
+    margin: 3px 0;
+}
+
+.demo-box {
+    min-width: 300px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.demo-box p {
+    font-size: 1.5rem;
+}
+
+.scroll--sublime::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.scroll--sublime::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgb(194, 124, 188);
+    box-shadow: 0 0 1px 1px #111111;
+}
+
+.scroll--sublime::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(151, 62, 151);
+    box-shadow: inset 0 0 1px 1px #470550;
+}
+
+.scroll--sublime::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(left, #555555, #4e4e4e);
+}
