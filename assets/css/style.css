@@ -157,7 +157,7 @@ h6 {
 # Login/Registro
 --------------------------------------------------------------*/
 .get-started-btn {
-  color: #fff; 
+  color: #fff;
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
   white-space: nowrap;
@@ -652,12 +652,14 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  border: 1px solid #ebebeb;
+  border: 1px solid #1722bb;
+  border-radius: 15px;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 0px 30px rgb(62, 3, 117);
 }
+
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
@@ -1229,8 +1231,8 @@ section {
   border-bottom-left-radius: 10px;
   border-top-right-radius: 9px;
   border-bottom-right-radius: 9px;
-  
- 
+
+
 
 }
 
@@ -1242,14 +1244,14 @@ section {
   width: 46px;
   height: 64px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
-  border-top-left-radius: 10px ;
+  border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-left-color: #fdfdfc;
-  border-style: solid ;
-  
- 
+  border-style: solid;
+
+
   transition: all 0.3s ease-in-out;
 }
 
@@ -1276,7 +1278,7 @@ section {
 .contact .php-email-form {
   width: 100%;
   background: #fff;
-  
+
 }
 
 .contact .php-email-form .form-group {
@@ -1475,7 +1477,7 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  
+
 }
 
 #footer .footer-top .social-links a:hover {
