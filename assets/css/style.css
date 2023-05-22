@@ -1014,9 +1014,10 @@ section {
 }
 
 .counts .image {
-  background: url("../img/counts-img.jpg") center center no-repeat;
+  background: url("../img/carecadgs.gif") center center no-repeat;
   background-size: cover;
   min-height: 400px;
+  border: 2px solid purple;
 }
 
 @media (max-width: 991px) {
