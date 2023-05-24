@@ -700,12 +700,15 @@ section {
 .services .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
+  padding-bottom: 10px;
+
   font-size: 24px;
 }
 
 .services .icon-box h4 a {
   color: white;
   transition: ease-in-out 0.3s;
+  cursor: default;
 }
 
 .services .icon-box h4 a:hover {
