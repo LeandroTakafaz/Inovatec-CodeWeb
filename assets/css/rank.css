@@ -8,7 +8,7 @@ body {
   height: 100%;
   width: 100%;
   min-height: 100vh;
-  background-color: #fbfaff;
+  background-image: linear-gradient(+160deg,#281c28,#2a0d25,#250126);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,14 +16,14 @@ body {
 
 main {
   width: 64rem;
-  height: 43rem;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0px 5px 15px 8px #e4e7fb;
-  box-shadow: 0px 5px 15px 8px #e4e7fb;
+  height: 44rem;
+  background-color: #f6bdfb;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 0.5rem;
+  border: 2px solid rgb(222, 212, 212);
+  box-shadow: 9px 10px 100px rgb(90, 21, 117);
 }
 
 #header {
@@ -37,9 +37,9 @@ main {
 .share {
   width: 4.5rem;
   height: 3rem;
-  background-color: #f55e77;
+  background-color: #b11dbb;
   border: 0;
-  border-bottom: 0.2rem solid #c0506a;
+  border-bottom: 0.2rem solid #000107;
   border-radius: 2rem;
   cursor: pointer;
 }
@@ -56,9 +56,10 @@ main {
 h1 {
   font-family: "Rubik", sans-serif;
   font-size: 1.7rem;
-  color: #141a39;
+  color: #3e4a86;
   text-transform: uppercase;
   cursor: default;
+  text-align: center;
 }
 h2{
   font-family: "Rubik", sans-serif;
@@ -84,7 +85,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
-  color: #141a39;
+  color: #000107;
   cursor: default;
 }
 
@@ -96,12 +97,12 @@ tr {
 tr:not(:first-child):hover {
   background-color: #fff;
   transform: scale(1.1);
-  -webkit-box-shadow: 0px 5px 15px 8px #e4e7fb;
-  box-shadow: 0px 5px 15px 8px #e4e7fb;
+  -webkit-box-shadow: 0px 5px 15px 8px #bc74ce;
+  box-shadow: 0px 5px 15px 8px #650e51;
 }
 
 tr:nth-child(odd) {
-  background-color: #f9f9f9;
+  background-color: #f6bdfb;
 }
 
 tr:nth-child(1) {
@@ -130,9 +131,9 @@ td {
   font-size: 1rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #3498DB;
+  background-color: #265cbfdb;
   border: 0;
-  border-bottom: 0.3rem solid #1F618D;
+  border-bottom: 0.3rem solid #0a2436;
   border-radius: 5rem;
   cursor: pointer;
 }
@@ -191,7 +192,7 @@ td {
   width: 66rem;
   height: 5.5rem;
   top: -0.5rem;
-  background-color: #5c5be5;
+  background-color: rgb(194, 38, 176);
   position: absolute;
   left: -1rem;
   -webkit-box-shadow: 0px 15px 11px -6px #7a7a7d;
@@ -244,7 +245,7 @@ td {
 }
 
 .exit:hover {
-  border: 0.1rem solid #5c5be5;
+  border: 0.1rem solid #0000fb;
 }
 
 .continue {
@@ -254,9 +255,9 @@ td {
   font-size: 1.3rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #5c5be5;
+  background-color: #b11dbb;
   border: 0;
-  border-bottom: 0.2rem solid #3838b8;
+  border-bottom: 0.2rem solid #000000;
   border-radius: 2rem;
   cursor: pointer;
 }
@@ -267,9 +268,9 @@ td {
   font-size: 1rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #B22214;
+  background-color: #b11dbb;
   border: 0;
-  border-bottom: 0.2rem solid #B22000;
+  border-bottom: 0.2rem solid #000000;
   border-radius: 2rem;
   cursor: pointer;
 }
