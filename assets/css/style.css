@@ -19,6 +19,13 @@ body {
   width: 10px;
   height: 10px;
 }
+.iframe{
+  border: 3px solid rgb(98, 8, 112);
+  border-radius: 1rem;
+   width: 636px;
+  height: 360px;
+  
+}
 
 .scroll--black::-webkit-scrollbar-track {
   border-radius: 10px;
@@ -474,7 +481,7 @@ h6 {
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #670480;
+  color: #8e0382;
 }
 
 #hero .icon-box h3 {
@@ -670,12 +677,15 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  border: 1px solid #1722bb;
+  border: 1px solid #9005b0;
   border-radius: 15px;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #855292;
-  box-shadow: 0px 0px 30px rgb(62, 3, 117);
+  background: #ffffffd6;
+  box-shadow: 0px 0px 30px rgb(85, 2, 111);
+}
+.services .icon-box:hover{
+  background-color: #bda7bf;
 }
 
 .services .icon-box .icon {
@@ -703,11 +713,11 @@ section {
   margin-bottom: 15px;
   padding-bottom: 10px;
 
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .services .icon-box h4 a {
-  color: white;
+  color: rgb(0, 0, 0);
   transition: ease-in-out 0.3s;
   cursor: default;
 }
@@ -718,8 +728,8 @@ section {
 
 .services .icon-box p {
   line-height: 24px;
-  color: white;
-  font-size: 14px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
   margin-bottom: 0;
 }
 
@@ -1024,6 +1034,7 @@ section {
   background-size: cover;
   min-height: 400px;
   border: 2px solid purple;
+  border-radius: 7px;
 }
 
 @media (max-width: 991px) {
@@ -1079,7 +1090,8 @@ section {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
-  border-radius: 50%;
+  height: 110px;
+  border-radius: 20px;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }
@@ -1120,6 +1132,7 @@ section {
   font-style: italic;
   margin: 0 auto 15px auto;
   color: #eee;
+  font-size: 16px;
 }
 
 .testimonials .swiper-pagination {
@@ -1130,7 +1143,7 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgb(255, 255, 255);
   opacity: 0.5;
 }
 
@@ -1154,94 +1167,6 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team {
-  background: #fff;
-  padding: 60px 0;
-}
-
-.team .member {
-  margin-bottom: 20px;
-  overflow: hidden;
-  border-radius: 5px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.team .member .member-img {
-  position: relative;
-  overflow: hidden;
-}
-
-.team .member .social {
-  position: absolute;
-  left: 0;
-  bottom: 30px;
-  right: 0;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
-  text-align: center;
-}
-
-.team .member .social a {
-  transition: color 0.3s;
-  color: #151515;
-  margin: 0 3px;
-  border-radius: 4px;
-  width: 36px;
-  height: 36px;
-  background: rgba(255, 255, 255, 0.8);
-  transition: ease-in-out 0.3s;
-  color: #484848;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.team .member .social a:hover {
-  color: #151515;
-  background: #670480;
-}
-
-.team .member .social i {
-  font-size: 18px;
-  line-height: 0;
-}
-
-.ola {
-  font-size: 18px;
-  font-weight: 0;
-  color: #413d3d;
-}
-
-.team .member .member-info {
-  padding: 25px 15px;
-}
-
-.team .member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: #151515;
-}
-
-.team .member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: #aaaaaa;
-}
-
-.team .member .member-info p {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  color: #777777;
-}
-
-.team .member:hover .social {
-  opacity: 1;
-  bottom: 15px;
-}
 
 /*--------------------------------------------------------------
 # Contact
